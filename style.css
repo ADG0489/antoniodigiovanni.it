@@ -54,3 +54,16 @@ footer a{color:white}
   .timeline p{grid-template-columns:1fr;gap:6px}
   footer{flex-direction:column}
 }
+
+/* V4 — integrated transparent ADG mark */
+.hero img[src*="logo-adg"],
+.hero-media img[src*="logo-adg"],
+img[src*="logo-adg"] {
+  background: transparent !important;
+  box-shadow: none !important;
+  border: 0 !important;
+  object-fit: contain !important;
+  padding: 0 !important;
+  max-width: 78%;
+  margin-inline: auto;
+}
