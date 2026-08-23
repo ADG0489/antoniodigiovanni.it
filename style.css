@@ -67,3 +67,6 @@ img[src*="logo-adg"] {
   max-width: 78%;
   margin-inline: auto;
 }
+
+.social-links{display:flex;gap:22px;align-items:center}
+@media(max-width:800px){.social-links{gap:18px}}
